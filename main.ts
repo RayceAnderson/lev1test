@@ -100,5 +100,5 @@ curBlock.y = 28
 curBlock.z = 1;
 scene.setBackgroundImage(assets.image`bg`)
 if (prePlacedBlocks === true) {
-    let blockOverlay = sprites.create(assets.image`placedBlocksOverlay`, 0)
+    let blockOverlay = sprites.create(assets.image`placedBlocksOverlay`, 0);
 }
